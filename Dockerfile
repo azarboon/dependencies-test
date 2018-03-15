@@ -4,6 +4,6 @@ WORKDIR /home
 
 COPY package.json .
 
-RUN npm install
+RUN npm install -g
 
 CMD ["sh"]
